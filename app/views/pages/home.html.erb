@@ -1,2 +1,75 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container-fluid main ">
+  <div class="row">
+
+    <nav class="col-2 sidebar justify-center">
+      <a href=""><p>Lorem Ipsum</p></a>
+      <a href="" id="utilizador"><p>Utilizador</p></a>
+      <a href=""><p>Quantum Solum</p></a>
+      <a href=""><p>Marcus tremer</p></a>
+    </nav>
+
+    <div class="col-10" id='conteudo'>
+      <h1>Utilizador</h1>
+      <div class="div1">
+        <nav class="  navbar2 ">
+          <p>Tipo de utlizador</p>
+          <div class="span1">
+            <button class="btn  collapsed" data-toggle="collapse" data-target="#tipodeutilizador"></button>
+          </div>
+        </nav>
+
+          <div id="tipodeutilizador" class="collapse">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Project Manager
+              </label>
+              </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Developer
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Architect
+              </label>
+            </div>
+          </div>
+
+          <nav class="  navbar2 ">
+            <p>Contacto</p>
+            <div class="span2">
+              <button class="btn  collapsed" data-toggle="collapse" data-target="#contacto"></button>
+            </div>
+          </nav>
+
+          <div id="contacto" class="collapse">
+            <form >
+              <div class="input-row">
+                <div class="input-group">
+                  <label for="">Email</label>
+                  <input type="text" placeholder="  pm@premium-minds.com">
+                </div>
+
+                <div class="input-group">
+                  <label for="">Password</label>
+                  <input type="password" placeholder="  &#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;">
+                </div>
+              </div>
+
+              <div class="input-row">
+                <div class="input-group">
+                  <label for="">Telefone</label>
+                  <input type="text" placeholder="  +351">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

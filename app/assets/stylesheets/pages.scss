@@ -1,3 +1,154 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.main {
+  background-color: #E6E6E6;
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.sidebar {
+  padding-top: 35px;
+  background-color: #333;
+  height: 100%;
+  padding-top: 45px;
+  padding-left: 40px;
+}
+
+.sidebar p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: system-ui, system-ui, sans-serif;
+  color: #E6E6E6;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+#conteudo {
+  visibility: visible;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+
+#conteudo h1 {
+  font-size: 27px;
+}
+
+.div1 {
+  font-weight: 400;
+  font-size: 16;
+  margin-top: 40px;
+
+
+}
+
+
+
+button.btn.collapsed:before
+{
+    content:'+' ;
+    display:block;
+    width:15px;
+    outline: none;
+}
+
+button.btn:before
+{
+    content:'-' ;
+    display:block;
+    width:15px;
+    outline: none;
+}
+
+.navbar2 {
+  height: 40px;
+  line-height: 40px;
+      white-space: nowrap;
+  background-color: #e0dbdb;
+  margin-top: 15px;
+
+
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+
+
+
+#tipodeutilizador, #contacto {
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 15px;
+  margin-bottom: -15px;
+  padding-bottom: 25px;
+}
+
+.span1, .span2 {
+
+  padding-bottom: 10px;
+}
+
+.form-check {
+
+  margin-bottom: 15px;
+}
+.form-check-label {
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 450;
+
+}
+
+input:checked + label { font-weight: bold }
+
+
+.form-check input {
+  border-radius: 0%;
+}
+
+.input-row {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 30%;
+  padding-left: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc ;
+  outline: none;
+  padding-bottom: 5px;
+
+}
+
+::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+
+  color: rgb(14, 7, 7);
+}
+
+.input-group label {
+  color: rgb(144, 136, 136);
+  font-weight: 600;
+  font-size: 13px;
+}
