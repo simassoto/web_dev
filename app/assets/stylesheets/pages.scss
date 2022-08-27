@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .main {
-  background-color: #E6E6E6;
+  background-color: #F5F5F5;
   height: 100%;
 }
 
@@ -12,8 +12,7 @@
 }
 
 .sidebar {
-  padding-top: 35px;
-  background-color: #333;
+  background-color: #333F52;
   height: 100%;
   padding-top: 45px;
   padding-left: 40px;
@@ -23,7 +22,7 @@
   font-size: 14px;
   font-weight: 400;
   font-family: system-ui, system-ui, sans-serif;
-  color: #E6E6E6;
+  color:#FFFFFF;
 }
 
 .sidebar a {
@@ -45,48 +44,39 @@
   font-weight: 400;
   font-size: 16;
   margin-top: 40px;
-
-
 }
-
-
 
 button.btn.collapsed:before
 {
     content:'+' ;
     display:block;
-    width:15px;
     outline: none;
+    font-size: 25px;
 }
 
 button.btn:before
 {
     content:'-' ;
     display:block;
-    width:15px;
+    height: 75%;
     outline: none;
+    font-size: 25px;
 }
 
 .navbar2 {
   height: 40px;
   line-height: 40px;
-      white-space: nowrap;
-  background-color: #e0dbdb;
-  margin-top: 15px;
-
-
+  white-space: nowrap;
+  background-color: #EBEBEB;
+  border: none;
+  border-bottom: 1px solid #ccc ;
   padding-left: 15px;
   font-size: 15px;
   font-weight: 500;
   align-content: center;
   display: flex;
   justify-content: space-between;
-
-
-
 }
-
-
 
 #tipodeutilizador, #contacto {
   background-color: white;
@@ -151,4 +141,65 @@ input:checked + label { font-weight: bold }
   color: rgb(144, 136, 136);
   font-weight: 600;
   font-size: 13px;
+}
+
+.button2 {
+  background-color: #00ADE6;
+  border: none;
+  color: rgb(242, 237, 237);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 250px;
+  font-weight: 700;
+}
+
+.button1 {
+  background-color:#fff;
+  border: none;
+  color: rgb(0,0,0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 250px;
+  font-weight: 600;
+}
+
+.save {
+  display: flex;
+  justify-content: end;
+}
+
+footer {
+
+  text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  background-color: #273142;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 65px;
+  margin: auto;
+
+  padding-top: 20px;
+  padding-left: 0% !important;
+}
+
+.footdiv {
+  justify-content: center;
+  align-items: flex-end;
+  height: 60px;
+  margin-right: -12px;
+  margin-left: -40px;
 }
