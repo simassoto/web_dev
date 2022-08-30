@@ -4,6 +4,6 @@ let conteudo = document.querySelector('#conteudo');
 console.log("teste")
 utilizador.addEventListener('click', () => {
   conteudo.style.visibility = "visible";
-console
+  console.log("teste")
 });
 }
